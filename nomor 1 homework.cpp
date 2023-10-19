@@ -7,7 +7,7 @@ struct Zodiak{
 };
 
 int main(){
-    int n, m;
+    int n;
     cout << "Masukan ada berapa orang : ";
     cin >> n;
     Zodiak zodiak[n];
