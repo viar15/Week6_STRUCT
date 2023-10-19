@@ -34,11 +34,10 @@ int main()
     cout << "enter your birth date  : " << endl;
     cout << "day (1-31) : ";
     cin >> day;
-    cout << endl;
     cout << "month (1-12) : ";
     cin >> month;
 
-    if (month > 12 && day > 31)
+    if (month > 12 || day > 31)
     {
         cout << "invalid date format, program closes";
         return 0;
